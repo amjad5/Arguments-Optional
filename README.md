@@ -11,3 +11,12 @@ var sumTwoAnd = addTogether(2);
 sumTwoAnd(3) returns 5.
 
 If either argument isn't a valid number, return undefined.
+
+
+#Expected Result
+
+addTogether(2, 3) should return 5.
+addTogether(2)(3) should return 5.
+addTogether("http://bit.ly/IqT6zt") should return undefined.
+addTogether(2, "3") should return undefined.
+addTogether(2)([3]) should return undefined.
